@@ -13,15 +13,14 @@ public class MyCat extends Cat
      */
     public void act()
     {  
-        if(isAlone()){
-            sleep(5);
-        }
-        else{
+        sleep(2); //durmamos un poquito
+        if (isBored())
+        {
             shoutHooray();
         }
-        }
+        
     }
-    
+}
 
         
         
